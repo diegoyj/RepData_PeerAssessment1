@@ -59,6 +59,7 @@ noNAS <- filter(data, !is.na(steps))
                  main = "Total Number of steps of each day"))
 
 ```
+![plot of chunk ](figures/figure1.png) 
 
 1.2. Calculate and report the mean and median total number of steps taken per day  
 
@@ -88,6 +89,8 @@ noNAS <- filter(data, !is.na(steps))
               ylab = "Average Steps"))
       
 ```
+
+![plot of chunk ](figures/figure2.png)
 
 2.2. Which 5-minute interval, on average across all the days in the dataset, 
 contains the maximum number of steps? 
@@ -147,6 +150,7 @@ nrow(filter(data, is.na(steps)))
                  main = "Total Number of steps of each day"))
 
 ```
+![plot of chunk ](figures/figure3.png) 
 
   b) Calculate and report the mean and median total number of steps taken per day  
 
@@ -190,3 +194,4 @@ example of what this plot should look like using simulated data.
          xlab = "5 minutes interval", ylab = "Averaged Steps",
          main = "5 minutes interval Steps averaged across weekdays and weekends")
 ```
+![plot of chunk ](figures/figure4.png) 
